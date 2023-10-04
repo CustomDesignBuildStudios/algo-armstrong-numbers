@@ -1,4 +1,3 @@
-# How can you make this more scalable and reusable later?
 def is_armstrong_number(number):
     number_as_array = [int(x) for x in str(number)]
     armstrong_num = 0
