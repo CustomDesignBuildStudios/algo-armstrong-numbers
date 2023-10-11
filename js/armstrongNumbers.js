@@ -20,7 +20,6 @@ function findArmstrongNumbers(numbers) {
             armstrongNumbers.push(numbers[x]);
         }
     }
-    console.log(armstrongNumbers);
     return armstrongNumbers;
 }
   

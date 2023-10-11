@@ -5,7 +5,7 @@ function createArrayOfNum(maxValue) {
   return [...Array(maxValue).keys()];
 }
 
-describe("test armstrongNumbers", () => {
+describe("Testing armstrongNumbers", () => {
   test("findArmstrongNumbers(createArrayOfNum(999)) === [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 153, 370, 371, 407]", () => {
     expect(shallowEqualArrays(
       findArmstrongNumbers(
